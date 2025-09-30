@@ -1,0 +1,243 @@
+/* enrollCard.css */
+
+/* Custom responsive breakpoints */
+@media (min-width: 280px) {
+  .xs\:text-3xl { 
+    font-size: 1.875rem !important; 
+  }
+  .xs\:text-sm { 
+    font-size: 0.875rem !important; 
+  }
+  .xs\:text-base { 
+    font-size: 1rem !important; 
+  }
+  .xs\:px-5 { 
+    padding-left: 1.25rem !important; 
+    padding-right: 1.25rem !important; 
+  }
+  .xs\:py-2\.5 { 
+    padding-top: 0.625rem !important; 
+    padding-bottom: 0.625rem !important; 
+  }
+  .xs\:mb-6 { 
+    margin-bottom: 1.5rem !important; 
+  }
+  .xs\:mb-8 { 
+    margin-bottom: 2rem !important; 
+  }
+  .xs\:mt-2 { 
+    margin-top: 0.5rem !important; 
+  }
+  .xs\:px-8 { 
+    padding-left: 2rem !important; 
+    padding-right: 2rem !important; 
+  }
+  .xs\:py-4 { 
+    padding-top: 1rem !important; 
+    padding-bottom: 1rem !important; 
+  }
+  .xs\:rounded-2xl { 
+    border-radius: 1rem !important; 
+  }
+  .xs\:rounded-3xl { 
+    border-radius: 1.5rem !important; 
+  }
+  .xs\:ml-3 { 
+    margin-left: 0.75rem !important; 
+  }
+  .xs\:w-5 { 
+    width: 1.25rem !important; 
+  }
+  .xs\:h-5 { 
+    height: 1.25rem !important; 
+  }
+  .xs\:mt-6 { 
+    margin-top: 1.5rem !important; 
+  }
+  .xs\:my-8 { 
+    margin-top: 2rem !important; 
+    margin-bottom: 2rem !important; 
+  }
+  .xs\:p-8 { 
+    padding: 2rem !important; 
+  }
+}
+
+@keyframes slow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-6px) rotate(3deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-6px) rotate(-3deg);
+  }
+}
+
+.animate-slow-spin {
+  animation: slow-spin 20s linear infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Hover effects */
+.group:hover .group-hover\:translate-x-1 {
+  transform: translateX(0.25rem);
+}
+
+/* Pulse animation for the admission badge dot */
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Responsive text shadows */
+@media (max-width: 640px) {
+  .enroll-card h2 {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
+  }
+}/* enrollCard.css */
+
+/* Custom responsive breakpoints */
+@media (min-width: 280px) {
+  .xs\:text-3xl { 
+    font-size: 1.875rem !important; 
+  }
+  .xs\:text-sm { 
+    font-size: 0.875rem !important; 
+  }
+  .xs\:text-base { 
+    font-size: 1rem !important; 
+  }
+  .xs\:px-5 { 
+    padding-left: 1.25rem !important; 
+    padding-right: 1.25rem !important; 
+  }
+  .xs\:py-2\.5 { 
+    padding-top: 0.625rem !important; 
+    padding-bottom: 0.625rem !important; 
+  }
+  .xs\:mb-6 { 
+    margin-bottom: 1.5rem !important; 
+  }
+  .xs\:mb-8 { 
+    margin-bottom: 2rem !important; 
+  }
+  .xs\:mt-2 { 
+    margin-top: 0.5rem !important; 
+  }
+  .xs\:px-8 { 
+    padding-left: 2rem !important; 
+    padding-right: 2rem !important; 
+  }
+  .xs\:py-4 { 
+    padding-top: 1rem !important; 
+    padding-bottom: 1rem !important; 
+  }
+  .xs\:rounded-2xl { 
+    border-radius: 1rem !important; 
+  }
+  .xs\:rounded-3xl { 
+    border-radius: 1.5rem !important; 
+  }
+  .xs\:ml-3 { 
+    margin-left: 0.75rem !important; 
+  }
+  .xs\:w-5 { 
+    width: 1.25rem !important; 
+  }
+  .xs\:h-5 { 
+    height: 1.25rem !important; 
+  }
+  .xs\:mt-6 { 
+    margin-top: 1.5rem !important; 
+  }
+  .xs\:my-8 { 
+    margin-top: 2rem !important; 
+    margin-bottom: 2rem !important; 
+  }
+  .xs\:p-8 { 
+    padding: 2rem !important; 
+  }
+}
+
+@keyframes slow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-6px) rotate(3deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(0deg);
+  }
+  75% {
+    transform: translateY(-6px) rotate(-3deg);
+  }
+}
+
+.animate-slow-spin {
+  animation: slow-spin 20s linear infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Hover effects */
+.group:hover .group-hover\:translate-x-1 {
+  transform: translateX(0.25rem);
+}
+
+/* Pulse animation for the admission badge dot */
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Responsive text shadows */
+@media (max-width: 640px) {
+  .enroll-card h2 {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
+  }
+}
