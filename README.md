@@ -1,6 +1,6 @@
 # Quark School Website
 
-Welcome to the official website for Quark School!
+Welcome to the Official Website for Quark School!
 
 This is a dynamic school website built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The website offers a range of features designed to enhance the school’s online presence and make content management easy for administrators.
 
